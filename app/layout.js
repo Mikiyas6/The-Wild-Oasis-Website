@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
           <Navigation />
         </header>
         <main className="container mx-auto px-4">{children}</main>
+        <footer>Copyright &copy; 2023 The Wild Oasis</footer>
       </body>
     </html>
   );
