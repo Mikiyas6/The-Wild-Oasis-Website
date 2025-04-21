@@ -2,15 +2,20 @@ import Logo from "@/app/_components/Logo";
 import Navigation from "@/app/_components/Navigation";
 import "@/app/_styles/globals.css";
 export const metadata = {
-  title: "The Wild Oasis",
-  description: "A place to relax and unwind",
+  title: {
+    template: "%s | The Wild Oasis",
+    default: "Welcome | The Wild Oasis",
+  },
+
+  description:
+    "Luxurious cabin hotel, located in the heart of the Italian Dolomites, surrounded by beautiful mountains and dark forests",
 };
 
 // This is a root layout for a Next.js application. It will Wrap the entire application so it will apply to all route.
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-blue-900 text-primary-190 min-h-screen">
+      <body className="bg-colors-primary-950 text-colors-primary-100 min-h-screen">
         <header>
           <Logo />
           <Navigation />
