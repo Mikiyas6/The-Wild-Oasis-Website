@@ -1,7 +1,7 @@
 import Navigation from "../_components/Navigation";
 
 export const metadata = {
-  title: "Account Settings",
+  title: "Guest area",
   keywords: ["account", "settings", "profile"],
   description: "Manage your account settings",
 };
