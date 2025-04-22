@@ -10,7 +10,7 @@ export default function Page() {
         alt="Mountains and forests with two cabins"
         quality={80} // quality of the image
         placeholder="blur" // will make the image blurry until it loads
-        className="object-cover object-top" // object-cover: to preserve the dimensions of the image to the aspect ratio
+        className="object-cover " // object-cover: to preserve the dimensions of the image to the aspect ratio
       />
 
       <div className="relative z-10 text-center">
