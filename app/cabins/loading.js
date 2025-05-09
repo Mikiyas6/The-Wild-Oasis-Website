@@ -1,6 +1,5 @@
-import SpinnerMini from "@/starter/components/SpinnerMini";
+import SpinnerMini from "@/app/_components/SpinnerMini";
 
-//Global Loader
 export default function Loading() {
   return (
     <div className="grid items-center justify-center ">
