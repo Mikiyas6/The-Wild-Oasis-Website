@@ -7,7 +7,7 @@ export const metadata = {
   description: "A place to relax and unwind",
 };
 
-export default async function Page() {
+export default function Page() {
   // CHANGE
   return (
     <div>
