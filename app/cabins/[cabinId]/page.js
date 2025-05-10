@@ -11,11 +11,16 @@ export default async function Page({ params }) {
     <div className="max-w-6xl mx-auto mt-8">
       <div className="grid grid-cols-[3fr_4fr] gap-20 border border-primary-800 py-3 px-10 mb-24">
         <div className="relative scale-[1.15] -translate-x-3">
-          <Image fill objectFit="cover" src={image} alt={`Cabin ${name}`} />
+          <Image
+            fill
+            className="object-cover"
+            src={image}
+            alt={`Cabin ${name}`}
+          />
         </div>
 
         <div>
-          <h3 className="text-accent-100 font-black text-7xl mb-5 translate-x-[-254px] bg-primary-950 p-6 pb-1 w-[150%]">
+          <h3 className="text-accent-100 font-black text-7xl mb-5  bg-primary-950 pl-24 pb-1 ">
             Cabin {name}
           </h3>
 
